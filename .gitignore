@@ -16,6 +16,8 @@
 # next.js
 /.next/
 /out/
+/public/uploads/*
+!/public/uploads/.gitkeep
 
 # production
 /build

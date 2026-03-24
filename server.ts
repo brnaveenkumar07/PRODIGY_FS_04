@@ -2,7 +2,7 @@ import { createServer } from "node:http";
 
 import next from "next";
 
-import { initSocketServer } from "./src/lib/socket";
+import { initSocketServer } from "./src/lib/socket.ts";
 
 const dev = process.env.NODE_ENV !== "production";
 const host = process.env.HOST ?? "127.0.0.1";

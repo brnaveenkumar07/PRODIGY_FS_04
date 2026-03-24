@@ -15,12 +15,14 @@
 
 # next.js
 /.next/
+/.next-app/
 /out/
 /public/uploads/*
 !/public/uploads/.gitkeep
 
 # production
 /build
+/src/generated/
 
 # misc
 .DS_Store

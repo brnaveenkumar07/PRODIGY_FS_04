@@ -1,4 +1,4 @@
-import type { Prisma } from "@prisma/client";
+import type { Prisma } from "@/generated/prisma/index.js";
 
 import { errorResponse, successResponse } from "@/lib/api-response";
 import { getAuthPayloadFromRequest } from "@/lib/auth";
